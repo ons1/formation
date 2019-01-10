@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Formation technique odoo',
+    'name': 'Formation technique odoo v8',
     'version': '1.0',
     'author': 'Khemiri Ons',
     'website': 'https://www.sdatacave.com',
