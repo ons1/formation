@@ -9,7 +9,7 @@
                 <div class="page">
                         <div class="row mt32 mb32">
                             <div class="col-xs-2">
-                                <strong>Nom:</strong>
+                                <strong>Nom Formation:</strong>
                                 <p t-field="o.name"/>
                             </div>
                             <div class="col-xs-2">
