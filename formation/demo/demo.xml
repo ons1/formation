@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+        <record id="module_name_data_id" model="module.module">
+            <field name="name">Python</field>
+            <field name="code">P</field>
+        </record>
+        
+        <record id="module_name_data_id_1" model="module.module">
+            <field name="name">Odoo11</field>
+            <field name="code">O</field>
+        </record>
+    
+        <record id="module_name_data_id_2" model="module.module">
+            <field name="name">Odoo10</field>
+            <field name="code">O10</field>
+        </record>
+    
+    
+        <record id="module_name_data_id_3" model="module.module">
+            <field name="name">Big Data</field>
+            <field name="code">BG</field>
+        </record>
+        
+        
+        <record id="session_name_data_id" model="session.session">
+            <field name="name">Session1</field>
+            <field name="code">S1</field>
+        </record>
+         
+        <record id="session_name_data_id_1" model="session.session">
+            <field name="name">Session2</field>
+            <field name="code">S2</field>
+        </record>
+    
+    
+    </data>
+</openerp>

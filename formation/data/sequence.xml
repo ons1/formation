@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<openerp>
+	<data>
+     
+
+		<record model="ir.sequence.type" id="seq_type_claim">
+  				  <field name="name">claim.claim</field>
+   				  <field name="code">claim.claim</field>
+		</record>
+        <!-- Sequences For claim.claim -->
+        <record id="seq_claim_claim" model="ir.sequence">
+            <field name="name">claim.claim</field>
+            <field name="code">claim.claim</field>
+            <field name="prefix">%(year)s/%(month)s/</field>
+            <field name="padding">4</field>
+        </record>
+
+		<record model="ir.sequence.type" id="seq_type_emp_id">
+    		<field name="name">registration.registration</field>
+   			 <field name="code">registration.registration</field>
+		</record>
+
+
+		<!-- Sequences For registration -->
+		<record id="seq_registr" model="ir.sequence">
+				<field name="name">registration.registration</field>
+				<field name="code">registration.registration</field>
+				<field name="prefix">REG-</field>
+				<field name="padding">4</field>
+		</record>
+		</data>
+</openerp>

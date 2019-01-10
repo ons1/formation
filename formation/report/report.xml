@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+     		 <report 
+            id="report_registration"
+            model="registration.registration"
+            string="Dossier Inscription"
+            report_type="qweb-pdf"
+            name="formation.report_template_reg"
+            file="formation.registration"
+            attachment_use="False"
+        		/>
+    
+    </data>
+</openerp>
